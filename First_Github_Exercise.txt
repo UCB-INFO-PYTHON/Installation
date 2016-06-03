@@ -1,0 +1,11 @@
+GitHub Exercise
+
+This is a simple exercise designed to give you practice using GitHub. Additionally the following questions are meant to stimulate you to think about how innovation arises and propagates. Type your answers and commit them to your repository as outlined in the “Completing Your First Exercise With Git Reading Card” document. Be ready to share these answers <briefly> in the discussion section.
+
+* Bill Gates or Gary Kidall? Thomas Edison or Nicola Tesla? Rosalind Franklin or Watson and Crick? Steve(Jobs or Wozniak)?
+
+Answer?
+
+* How might modern data science be disruptive to your industry? 
+
+Answer?
