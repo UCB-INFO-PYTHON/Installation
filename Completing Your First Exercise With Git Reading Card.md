@@ -107,35 +107,27 @@ git push origin master
 
 ## Completing the Exercise
 
-The assignment-upstream-SS repository contains a simple exercise to give you practice with this procedure.  
+The assignment-upstream-SS repository contains a simple exercise to give you practice with this procedure. The Github repository **installation** contains the exercise. 
 
-Clone the installations directory to your local machine
+* Clone the installation directory to your local machine
 
 ```sh
-
-
-* The Github repository contains the exercise Navigate to the **Installation** directory in the local https://github.com/MIDS-INFO-W18/Installation
-
-
-Course\_Syllabus\-SS directory. 
+git clone https://github.com/MIDS-INFO-W18/Installation.git 
+```
 
 * Copy the file "First\_GitHub\_Exercise.txt" 
-	* From your local **Course\_Syllabus\-SS/week\_3** 
-	* To your local **assignments-upstream/week\_3** folder
+	* From your local **Installation** directory. 
+To your local **assignments-upstream-SS** folder
+	* To copy the file you can practice using the command line **cp** command or just drag and drop the file.
 
-* Then open the file, answer the questions and save.
+* Open the file, answer the questions, and save.
+
+* Commit the changes to your local repository. Go back to your command terminal and type the following.
 
 ```sh
-cp Course_Syllabus-SS/week_3/3.8.1 First GitHub Exercise.txt assignments-upstream/week_3/3.8.1 First Github Exercise.txt
-
-```
-
-
-Next, commit the changes to your local repository. Go back to your command terminal and type the following.
-```
 git status
 ```
-This should confirm that you have a modified file in your repository. Go ahead and add the file.
+* This should confirm that you have a modified file in your repository. Go ahead and add the file.
 
 ``` sh
 git add First_GitHub_Exercise.txt
