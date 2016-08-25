@@ -1,0 +1,11 @@
+{
+    "ImageId": "ami-be0d5fd4",
+    "KeyName": "W205Pair",
+    "SecurityGroups": [
+        "ElasticMapReduce-master"
+    ],
+    "InstanceType": "t1.micro",
+        "Monitoring": {
+            "Enabled": true
+    }
+}

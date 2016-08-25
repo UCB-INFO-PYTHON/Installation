@@ -23,14 +23,16 @@ First create an empty repository in Github for your homework, you can do this th
 
 
 --
-* Put your repository in the MIDS-INFO-W18 organization 
+* Put your repository in the MIDS-INFO-W18 organization
+* Name it your FirstnameLastnameREPO so mine should be **"GunnarKleemannREPO"**
 
 ![New repo menu item](images/CreateRepo_2.png)
 
 
 --
-* Make the repository **private** with the radio button 
-* **Important:** Do not add a readme file, you need an empty repository
+* Make the repository **private** with the radio button
+ 
+# Important: Do not add a readme file you need an empty repository
 
 ![New repo menu item](images/CreateRepo_3.png)
 
@@ -51,23 +53,26 @@ First create an empty repository in Github for your homework, you can do this th
 
 ## Clone the assignments directory on your system
 
+
+You need to tell git that you will be pulling content (homeworks) onto your machine from assignment-upstream-fall-2016 and pushing modified content (completed homeworks) to YourNameREPO on github
+
 Open a command prompt and use it to navigate to your desktop or course working directory.  Then execute the following commands:
 
 *Note: lines preceeded by "#" are comments to explain each step and should not be executed.* 
 
-
-
-
 ``` sh
 # clone the assignment repository onto your computer
-git clone https://github.com/MIDS-INFO-W18/assignment-upstream-SS.git
 
-cd assignment-upstream-SS
+git clone https://github.com/MIDS-INFO-W18/assignment-upstream-fall-2016.git
 
-git remote add upstream https://github.com/MIDS-INFO-W18/assignment-upstream-SS.git
+# Note: This may be an empty repository at the beginning of the course.
+
+cd assignment-upstream-fall-2016
+
+git remote add upstream https://github.com/MIDS-INFO-W18/assignment-upstream-fall-2016.git
 ```
 
-You can find the URLs by navigating to the appropriate repository in your web browser, then clicking on the "Clone or download" button in the upper right corner.
+You can find the URL for YourNameREPO by navigating to the appropriate repository in your web browser, then clicking on the "Clone or download" button in the upper right corner.
 
 ``` sh
 # set the origin to your personal repository
@@ -86,19 +91,22 @@ To check if you did everything right, execute the following command:
 git remote -v
 ```
 
-* The output should show two remotes, one named origin and one named upstream.  
+* The output should show "fetch" and "pull" for two remotes, one named origin and one named upstream.  
+
+![New repo menu item](images/CreateRepo_7.png)
+
 * You should also use the **ls** command to confirm that the assignment files have been copied to your machine.
 
 
 ## Workflow for Each Week
 
-Each week, you will begin by downloading the latest changes to the assignment-upstream repository.  You do this with a git pull:
+Each week, you will begin by navigating to your local version of **assignment-upstream-fall-2016**, and downloading the latest changes from the remote **assignment-upstream-fall-2016** repository. You do this with a git pull:
 
 ``` sh
 git pull upstream master
 ```
 
-Next, you complete all the exercises on your local machine and commit your changes to git.  Finally, you'll push your changes up to your personal student repository.  You can do this with the following command:
+Next, you complete all the exercises on your local machine and commit your changes to git.  Finally, you'll push your changes up to your personal student repository on github.  You can do this with the following command:
 
 ```sh
 git push origin master
@@ -107,17 +115,17 @@ git push origin master
 
 ## Completing the Exercise
 
-The assignment-upstream-SS repository contains a simple exercise to give you practice with this procedure. The Github repository **installation** contains the exercise. 
+The assignment-upstream-fall-2016 repository contains a simple exercise to give you practice with this procedure. The Github repository **installation** contains the exercise. 
 
 * Clone the installation directory to your local machine
 
 ```sh
-git clone https://github.com/MIDS-INFO-W18/Installation.git 
+git clone https://github.com/MIDS-INFO-W18/Installation.git
 ```
 
 * Copy the file "First\_GitHub\_Exercise.txt" 
 	* From your local **Installation** directory. 
-To your local **assignments-upstream-SS** folder
+To your local **assignment-upstream-fall-2016** folder
 	* To copy the file you can practice using the command line **cp** command or just drag and drop the file.
 
 * Open the file, answer the questions, and save.
@@ -146,3 +154,25 @@ git push origin master
 ```
 
 Check the GitHub repository in your browser to confirm that your changes are there.
+
+
+## merging 
+
+* Note: from time to time you may have to merge the upstream and your local drive when you **pull** in a version of the repository that are not the same. you may see a screen like this
+
+![New repo menu item](images/CreateRepo_8.png)
+
+**This is VIM**, a command line text editor. you need to enter a short message overwriting one of the blue tilde and then write the message to file
+
+to do this:
+
+1) Type 'I' to enter the "insert" mode (look to the bottom of the screen for the word "INSERT"
+
+2) Use arrow keys to navigate to the line above the blue tilde and type in a message (any explanation about one line long)
+
+3) Exit the insert mode by pushing "esc" ("INSERT" will disapear) then 
+
+4) type **:wq** this means command write then quit
+you should see some sort of message indicating that the merge was sucessful as shown below.
+
+![New repo menu item](images/CreateRepo_9.png)
