@@ -2,9 +2,9 @@
 
 Before proceeding, use the following instructions to set up your local assignment repository.  This will be the place you work on your class assignments and it will be linked to two remote repositories on GitHub:
 
-**Refer to [1.15 The Course Workflow.pptx](https://github.com/MIDS-INFO-W18/Course-Syllabus-SS/blob/master/unit_3/3.6%20The%20Course%20Workflow.pptx) for a diagram of this process** 
+**Refer to [1.15 The Course Workflow.pptx](https://github.com/MIDS-INFO-W18/Course-Syllabus/blob/master/week_3/3.6%20The%20Course%20Workflow.pptx) for a diagram of this process** 
 
-1. **Assignment-upstream-SS** - You should be able to find this repository in our class organization on GitHub: **https://github.com/MIDS-INFO-W18/assignment-upstream-SS**. This is where we will post all class assignments.  You have read access to this repository, and each week you will use a pull command to download the latest assignments to your own machine.
+1. **Assignment-upstream-fall-2016** - You should be able to find this repository in our class organization on GitHub: **https://github.com/MIDS-INFO-W18/assignment-upstream-fall-2016**. This is where we will post all class assignments.  You have read access to this repository, and each week you will use a pull command to download the latest assignments to your own machine.
 2. **Your student repository** - In this excercise you will make your own student remote repository. You should have write access to your student repisitory, but it will be only readable by you and your instructors.  When you complete your homework each week, you will use a push command to upload your work to this repository.
 
 ## Initial Setup
