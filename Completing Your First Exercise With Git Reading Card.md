@@ -166,13 +166,13 @@ Check the GitHub repository in your browser to confirm that your changes are the
 
 to do this:
 
-1) Type 'I' to enter the "insert" mode (look to the bottom of the screen for the word "INSERT"
+1) Type 'i' to enter the "insert" mode (look to the bottom of the screen for the word "INSERT"
 
 2) Use arrow keys to navigate to the line above the blue tilde and type in a message (any explanation about one line long)
 
 3) Exit the insert mode by pushing "esc" ("INSERT" will disapear) then 
 
-4) type **:wq** this means command write then quit
+4) type **:wq** this means *"write then quit"*
 you should see some sort of message indicating that the merge was sucessful as shown below.
 
 ![New repo menu item](images/CreateRepo_9.png)
