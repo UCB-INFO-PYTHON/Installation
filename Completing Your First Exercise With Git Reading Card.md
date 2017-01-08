@@ -91,7 +91,7 @@ To check if you did everything right, execute the following command:
 git remote -v
 ```
 
-* The output should show "fetch" and "pull" for two remotes, one named origin and one named upstream. 
+* The output should show "fetch" and "push" for two remotes, one named origin and one named upstream. 
 
 
 ###### Note: the name of your upstream folder may differ. the screenshot is an example with the assignment-upstream-fall-2016 folder.  
