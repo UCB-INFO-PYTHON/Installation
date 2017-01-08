@@ -2,9 +2,9 @@
 
 Before proceeding, use the following instructions to set up your local assignment repository.  This will be the place you work on your class assignments and it will be linked to two remote repositories on GitHub:
 
-**Refer to [1.15 The Course Workflow.pptx](https://github.com/MIDS-INFO-W18/Course-Syllabus/blob/master/week_3/3.6%20The%20Course%20Workflow.pptx) for a diagram of this process** 
+**Refer to [1.15 The Course Workflow.pptx](https://github.com/MIDS-INFO-W18/Course-Syllabus/blob/master/week_01/1.15%20The%20Course%20Workflow.pptx) for a diagram of this process** 
 
-1. **Assignment-upstream-fall-2016** - You should be able to find this repository in our class organization on GitHub: **https://github.com/MIDS-INFO-W18/assignment-upstream-fall-2016**. This is where we will post all class assignments.  You have read access to this repository, and each week you will use a pull command to download the latest assignments to your own machine.
+1. **Assignment-upstream-spring-2017** - You should be able to find this repository in our class organization on GitHub: **https://github.com/MIDS-INFO-W18/assignment-upstream-spring-2017**. This is where we will post all class assignments.  You have read access to this repository, and each week you will use a pull command to download the latest assignments to your own machine.
 2. **Your student repository** - In this excercise you will make your own student remote repository. You should have write access to your student repisitory, but it will be only readable by you and your instructors.  When you complete your homework each week, you will use a push command to upload your work to this repository.
 
 ## Initial Setup
@@ -63,13 +63,13 @@ Open a command prompt and use it to navigate to your desktop or course working d
 ``` sh
 # clone the assignment repository onto your computer
 
-git clone https://github.com/MIDS-INFO-W18/assignment-upstream-fall-2016.git
+git clone https://github.com/MIDS-INFO-W18/assignment-upstream-spring-2017.git
 
 # Note: This may be an empty repository at the beginning of the course.
 
-cd assignment-upstream-fall-2016
+cd assignment-upstream-spring-2017
 
-git remote add upstream https://github.com/MIDS-INFO-W18/assignment-upstream-fall-2016.git
+git remote add upstream https://github.com/MIDS-INFO-W18/assignment-upstream-spring-2017.git
 ```
 
 You can find the URL for YourNameREPO by navigating to the appropriate repository in your web browser, then clicking on the "Clone or download" button in the upper right corner.
@@ -91,9 +91,13 @@ To check if you did everything right, execute the following command:
 git remote -v
 ```
 
-* The output should show "fetch" and "pull" for two remotes, one named origin and one named upstream.  
+* The output should show "fetch" and "pull" for two remotes, one named origin and one named upstream. 
+
+
+###### Note: the name of your upstream folder may differ. the screenshot is an example with the assignment-upstream-fall-2016 folder.  
 
 ![New repo menu item](images/CreateRepo_7.png)
+
 
 * You should also use the **ls** command to confirm that the assignment files have been copied to your machine.
 
@@ -115,7 +119,11 @@ git push origin master
 
 ## Completing the Exercise
 
-The assignment-upstream-fall-2016 repository contains a simple exercise to give you practice with this procedure. The Github repository **installation** contains the exercise. 
+For this exercise you will post your first work to the assignment-upstream-fall-2017 repository. The Github repository **installation** contains the exercise. 
+
+* Make a new folder called **"SUBMISIONS"** in your local assignment-upstream-spring-2017 folder
+
+	* Try using the **mkdir** command from within assignment-upstream-spring-2017
 
 * Clone the installation directory to your local machine
 
@@ -125,7 +133,7 @@ git clone https://github.com/MIDS-INFO-W18/Installation.git
 
 * Copy the file "First\_GitHub\_Exercise.txt" 
 	* From your local **Installation** directory. 
-To your local **assignment-upstream-fall-2016** folder
+To your local **assignment-upstream-spring-2017/SUBMISSIONS** folder
 	* To copy the file you can practice using the command line **cp** command or just drag and drop the file.
 
 * Open the file, answer the questions, and save.
