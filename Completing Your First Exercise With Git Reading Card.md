@@ -104,13 +104,19 @@ git remote -v
 
 ## Workflow for Each Week
 
-Each week, you will begin by navigating to your local version of **assignment-upstream-fall-2016**, and downloading the latest changes from the remote **assignment-upstream-fall-2016** repository. You do this with a git pull:
+Each week, you will begin by navigating to your local version of **assignment-upstream-spring-2017**, and downloading the latest changes from the remote assignment-upstream-spring-2017 repository. You do this with a git pull:
 
 ``` sh
 git pull upstream master
 ```
 
-Next, you complete all the exercises on your local machine and commit your changes to git.  Finally, you'll push your changes up to your personal student repository on github.  You can do this with the following command:
+Next, you will have a **assignment-upstream-spring-2017/SUBMISSIONS** folder that you will make in the next exercise.
+
+* Make a copy of your assigmment and move it to the SUBMISSIONS folder. 
+ 
+* Complete all the exercises in the **assignment-upstream-spring-2017/SUBMISSIONS** folder on your local machine and commit your changes to git.  
+
+* Finally, you'll push your changes up to your personal student repository on github.  You can do this with the following command:
 
 ```sh
 git push origin master
@@ -146,7 +152,11 @@ git status
 * This should confirm that you have a modified file in your repository. Go ahead and add the file.
 
 ``` sh
-git add First_GitHub_Exercise.txt
+git add SUBMISSIONS/
+
+#check status to see that your file has been added as a new file (in green) 
+
+git status
 
 #Then commit your changes.
 
