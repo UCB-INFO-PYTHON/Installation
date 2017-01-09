@@ -54,7 +54,7 @@ First create an empty repository in Github for your homework, you can do this th
 ## Clone the assignments directory on your system
 
 
-You need to tell git that you will be pulling content (homeworks) onto your machine from assignment-upstream-fall-2016 and pushing modified content (completed homeworks) to YourNameREPO on github
+You need to tell git that you will be pulling content (homeworks) onto your machine from assignment-upstream-spring-2017 and pushing modified content (completed homeworks) to YourNameREPO on github
 
 Open a command prompt and use it to navigate to your desktop or course working directory.  Then execute the following commands:
 
@@ -100,7 +100,7 @@ git remote -v
 
 
 * You should also use the **ls** command to confirm that the assignment files have been copied to your machine.
-
+	
 
 ## Workflow for Each Week
 
@@ -127,7 +127,7 @@ git push origin master
 
 For this exercise you will post your first work to the assignment-upstream-fall-2017 repository. The Github repository **installation** contains the exercise. 
 
-* Make a new folder called **"SUBMISIONS"** in your local assignment-upstream-spring-2017 folder
+* Make a new folder called **"SUBMISSIONS"** in your local assignment-upstream-spring-2017 folder
 
 	* Try using the **mkdir** command from within assignment-upstream-spring-2017
 
