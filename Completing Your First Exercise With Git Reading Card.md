@@ -4,7 +4,7 @@ Before proceeding, use the following instructions to set up your local assignmen
 
 **Download [1.15 The Course Workflow.pptx](https://github.com/MIDS-INFO-W18/Course-Syllabus/blob/master/week_01/1.15%20The%20Course%20Workflow.pptx) for a diagram of this process** 
 
-1. **assignment-upstream-summer17** - You should be able to find this repository in our class organization on GitHub: **https://github.com/MIDS-INFO-W18/assignment-upstream-summer17**. This is where we will post all class assignments.  You have read access to this repository, and each week you will use a pull command to download the latest assignments to your own machine then push your submissions to your student repository **(recall the "V" shape)**.
+1. **assignment-upstream-summer17** - You should be able to find this repository in our class organization on GitHub: **https://github.com/MIDS-INFO-W18/assignment-upstream-summer17** (or https://github.com/MIDS-INFO-W18/assignment-upstream-w18 for the 10 week course). This is where we will post all class assignments.  You have read access to this repository, and each week you will use a pull command to download the latest assignments to your own machine then push your submissions to your student repository **(recall the "V" shape)**.
 2. **Your student repository** - In this excercise you will make your own student remote repository. You should have write access to your student repisitory, but it will be only readable by you and your instructors.  When you complete your homework each week, you will use a push command to upload your work to this repository.
 
 ## Initial Setup
@@ -63,12 +63,15 @@ Open a command prompt and use it to navigate to your desktop or course working d
 # clone the assignment repository onto your computer
 
 git clone https://github.com/MIDS-INFO-W18/assignment-upstream-summer17.git
+# (or https://github.com/MIDS-INFO-W18/assignment-upstream-w18.git for the 10 week course)
 
 # Note: This may be an empty repository at the beginning of the course.
 
 cd assignment-upstream-summer17
+# (or cd assignment-upstream-w18 for the 10 week course)
 
 git remote add upstream https://github.com/MIDS-INFO-W18/assignment-upstream-summer17.git
+# or git remote add upstream https://github.com/MIDS-INFO-W18/assignment-upstream-w18.git
 ```
 
 You can find the URL for YourNameREPO by navigating to the appropriate repository in your web browser, then clicking on the "Clone or download" button in the upper right corner.
@@ -138,7 +141,7 @@ git clone https://github.com/MIDS-INFO-W18/Installation.git
 
 * Copy the file "First\_GitHub\_Exercise.txt" 
 	* From your local **Installation** directory. 
-To your local **assignment-upstream-summer17/SUBMISSIONS** folder
+To your local **assignment-upstream-summer17/SUBMISSIONS** folder (or **assignment-upstream-w18/SUBMISSIONS** folder)
 	* To copy the file you can practice using the command line **cp** command or just drag and drop the file.
 
 * Open the file, answer the questions, and save.
