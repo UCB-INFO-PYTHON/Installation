@@ -53,7 +53,7 @@ First create an empty repository in Github for your homework, you can do this th
 ## Clone the assignments directory on your system
 
 
-You need to tell git that you will be pulling content (homeworks) onto your machine from assignment-upstream-summer17 and pushing modified content (completed homeworks) to YourNameREPO on github
+You need to tell git that you will be pulling content (homeworks) onto your machine from assignment-upstream-fall17 and pushing modified content (completed homeworks) to YourNameREPO on github
 
 Open a command prompt and use it to navigate to your desktop or course working directory.  Then execute the following commands:
 
@@ -129,9 +129,9 @@ git push origin master
 
 For this exercise you will post your first work to the assignments-upstream-fall17 repository. The Github repository **installation** contains the exercise. 
 
-* Make a new folder called **"SUBMISSIONS"** in your local assignment-upstream-summer17 folder
+* Make a new folder called **"SUBMISSIONS"** in your local assignment-upstream-fall17 folder
 
-	* Try using the **mkdir** command from within your local assignment-upstream-summer17
+	* Try using the **mkdir** command from within your local assignment-upstream-fall17
 
 * Clone the installation directory to your local machine
 
