@@ -20,7 +20,7 @@ We are using the Anaconda distribution of python in order to smooth the process 
 * The steps are the same for MacOSX and Linux. 
 * Download the command line installer by **clicking** on the link, using **curl**, or using **wget** to download the file for you.
 
-		$ curl -O "http://repo.continuum.io/archive/Anaconda3-4.0.0-MacOSX-x86_64.sh"
+		$ curl -O "http://repo.continuum.io/archive/Anaconda3-4.4.0-MacOSX-x86_64.sh"
 
 **Execute the installer**
 
@@ -29,10 +29,10 @@ We are using the Anaconda distribution of python in order to smooth the process 
 * write "bash" even within the bash shell
 you should be able to locate the downloaded file in your local folder or in the downloads folder
 
-		Anaconda3-4.0.0-MacOSX-x86_64.sh
+		Anaconda3-4.4.0-MacOSX-x86_64.sh
 		
 		$ cd <directory-with-installer>
-		$ bash Anaconda3-4.0.0-MacOSX-x86_64.sh
+		$ bash Anaconda3-4.4.0-MacOSX-x86_64.sh
 	
 
 * Be sure to allow the Anaconda to **"prepend the Anaconda3 install location to PATH"** so that the anaconda components can be found
