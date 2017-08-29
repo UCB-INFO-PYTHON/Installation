@@ -67,7 +67,7 @@ git clone https://github.com/MIDS-INFO-W18//assignments_upstream_fall17.git
 
 # Note: This may be an empty repository at the beginning of the course.
 
-cd assignments-upstream-fall17
+cd assignments_upstream_fall17
 # (or cd assignment-upstream-w18 for the 10 week course)
 
 git remote add upstream https://github.com/MIDS-INFO-W18/assignments_upstream_fall17.git
@@ -106,17 +106,17 @@ git remote -v
 
 ## Workflow for Each Week
 
-Each week, you will begin by navigating to your local version of **assignments-upstream-fall17**, and downloading the latest changes from the remote assignments-upstream-fall17 repository. You do this with a git pull:
+Each week, you will begin by navigating to your local version of **assignments_upstream_fall17**, and downloading the latest changes from the remote assignments-upstream-fall17 repository. You do this with a git pull:
 
 ``` sh
 git pull upstream master
 ```
 
-Next, you will have a **assignments-upstream-fall17/SUBMISSIONS** folder that you will make in the next exercise.
+Next, you will have a **assignments_upstream_fall17/SUBMISSIONS** folder that you will make in the next exercise.
 
 * Make a copy of your assigmment and move it to the SUBMISSIONS folder. 
  
-* Complete all the exercises in the **assignments-upstream-fall17/SUBMISSIONS** folder on your local machine and commit your changes to git.  
+* Complete all the exercises in the **assignments_upstream_fall17/SUBMISSIONS** folder on your local machine and commit your changes to git.  
 
 * Finally, you'll push your changes up to your personal student repository on github.  You can do this with the following command:
 
@@ -141,7 +141,7 @@ git clone https://github.com/MIDS-INFO-W18/Installation.git
 
 * Copy the file "First\_GitHub\_Exercise.txt" 
 	* From your local **Installation** directory. 
-To your local **assignments-upstream-fall17/SUBMISSIONS** folder (or **assignment-upstream-w18/SUBMISSIONS** folder)
+To your local **assignments_upstream_fall17/SUBMISSIONS** folder (or **assignment-upstream-w18/SUBMISSIONS** folder)
 	* To copy the file you can practice using the command line **cp** command or just drag and drop the file.
 
 * Open the file, answer the questions, and save.
