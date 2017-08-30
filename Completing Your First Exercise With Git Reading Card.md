@@ -62,7 +62,7 @@ Open a command prompt and use it to navigate to your desktop or course working d
 ``` sh
 # clone the assignment repository onto your computer
 
-git clone https://github.com/MIDS-INFO-W18//assignments_upstream_fall17.git
+git clone https://github.com/MIDS-INFO-W18/assignments_upstream_fall17.git
 # (or https://github.com/MIDS-INFO-W18/assignment-upstream-w18.git for the 10 week course)
 
 # Note: This may be an empty repository at the beginning of the course.
