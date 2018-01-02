@@ -4,7 +4,7 @@ Before proceeding, use the following instructions to set up your local assignmen
 
 **Download [1.15 The Course Workflow.pptx](https://github.com/MIDS-INFO-W18/Course-Syllabus/blob/master/week_01/1.15%20The%20Course%20Workflow.pptx) for a diagram of this process** 
 
-1. **assignment-upstream-fall17** - You should be able to find this repository in our class organization on GitHub: **https://github.com/MIDS-INFO-W18/assignments_upstream_fall17** (or https://github.com/MIDS-INFO-W18/assignment-upstream-w18 for the 10 week course). This is where we will post all class assignments.  You have read access to this repository, and each week you will use a pull command to download the latest assignments to your own machine then push your submissions to your student repository **(recall the "V" shape)**.
+1. **assignments-upstream-spring18** - You should be able to find this repository in our class organization on GitHub: **https://github.com/MIDS-INFO-W18/assignments-upstream-spring18**. This is where we will post all class assignments.  You have read access to this repository, and each week you will use a pull command to download the latest assignments to your own machine then push your submissions to your student repository **(recall the "V" shape)**.
 2. **Your student repository** - In this excercise you will make your own student remote repository. You should have write access to your student repisitory, but it will be only readable by you and your instructors.  When you complete your homework each week, you will use a push command to upload your work to this repository.
 
 ## Initial Setup
@@ -53,7 +53,7 @@ First create an empty repository in Github for your homework, you can do this th
 ## Clone the assignments directory on your system
 
 
-You need to tell git that you will be pulling content (homeworks) onto your machine from assignment-upstream-fall17 and pushing modified content (completed homeworks) to YourNameREPO on github
+You need to tell git that you will be pulling content (homeworks) onto your machine from assignments-upstream-spring18 and pushing modified content (completed homeworks) to YourNameREPO on github
 
 Open a command prompt and use it to navigate to your desktop or course working directory.  Then execute the following commands:
 
@@ -62,16 +62,14 @@ Open a command prompt and use it to navigate to your desktop or course working d
 ``` sh
 # clone the assignment repository onto your computer
 
-git clone https://github.com/MIDS-INFO-W18/assignments_upstream_fall17.git
-# (or https://github.com/MIDS-INFO-W18/assignment-upstream-w18.git for the 10 week course)
+git clone https://github.com/MIDS-INFO-W18/assignments-upstream-spring18.git
 
 # Note: This may be an empty repository at the beginning of the course.
 
-cd assignments_upstream_fall17
+cd assignments-upstream-spring18
 # (or cd assignment-upstream-w18 for the 10 week course)
 
-git remote add upstream https://github.com/MIDS-INFO-W18/assignments_upstream_fall17.git
-# or git remote add upstream https://github.com/MIDS-INFO-W18/assignment-upstream-w18.git
+git remote add upstream https://github.com/MIDS-INFO-W18/assignments-upstream-spring18.git
 ```
 
 You can find the URL for YourNameREPO by navigating to the appropriate repository in your web browser, then clicking on the "Clone or download" button in the upper right corner.
@@ -106,17 +104,17 @@ git remote -v
 
 ## Workflow for Each Week
 
-Each week, you will begin by navigating to your local version of **assignments_upstream_fall17**, and downloading the latest changes from the remote assignments-upstream-fall17 repository. You do this with a git pull:
+Each week, you will begin by navigating to your local version of **assignments-upstream-spring18**, and downloading the latest changes from the remote assignments-upstream-spring18 repository. You do this with a git pull:
 
 ``` sh
 git pull upstream master
 ```
 
-Next, you will have a **assignments_upstream_fall17/SUBMISSIONS** folder that you will make in the next exercise.
+Next, you will have a **assignments-upstream-spring18/SUBMISSIONS** folder that you will make in the next exercise.
 
 * Make a copy of your assigmment and move it to the SUBMISSIONS folder. 
  
-* Complete all the exercises in the **assignments_upstream_fall17/SUBMISSIONS** folder on your local machine and commit your changes to git.  
+* Complete all the exercises in the **assignments-upstream-spring18/SUBMISSIONS** folder on your local machine and commit your changes to git.  
 
 * Finally, you'll push your changes up to your personal student repository on github.  You can do this with the following command:
 
@@ -127,11 +125,11 @@ git push origin master
 
 ## Completing the Exercise
 
-For this exercise you will post your first work to the assignments-upstream-fall17 repository. The Github repository **installation** contains the exercise. 
+For this exercise you will post your first work to the assignments-upstream-spring18 repository. The Github repository **installation** contains the exercise. 
 
-* Make a new folder called **"SUBMISSIONS"** in your local assignment-upstream-fall17 folder
+* Make a new folder called **"SUBMISSIONS"** in your local assignments-upstream-spring18 folder
 
-	* Try using the **mkdir** command from within your local assignment-upstream-fall17
+	* Try using the **mkdir** command from within your local assignments-upstream-spring18
 
 * Clone the installation directory to your local machine
 
@@ -141,7 +139,7 @@ git clone https://github.com/MIDS-INFO-W18/Installation.git
 
 * Copy the file "First\_GitHub\_Exercise.txt" 
 	* From your local **Installation** directory. 
-To your local **assignments_upstream_fall17/SUBMISSIONS** folder (or **assignment-upstream-w18/SUBMISSIONS** folder)
+To your local **assignments-upstream-spring18/SUBMISSIONS** folder (or **assignment-upstream-w18/SUBMISSIONS** folder)
 	* To copy the file you can practice using the command line **cp** command or just drag and drop the file.
 
 * Open the file, answer the questions, and save.
