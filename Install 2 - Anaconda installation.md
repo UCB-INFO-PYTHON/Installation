@@ -7,20 +7,20 @@ We are using the Anaconda distribution of python in order to smooth the process 
 
 **1. Download *python 3* from the [Anaconda distribution page](https://www.continuum.io/downloads)**
 
-* If you are working on a Linux or MacOS machine, you can choose to download the command line or graphical installer version. 
+* If you are working on a Linux or MacOS machine, you can choose to download the command line or graphical installer version.
 * Windows users should install the graphical package.
 
 ## With the graphical installer
 
-* The graphical package can be downloaded and the installer should walk you though the set up. 
+* The graphical package can be downloaded and the installer should walk you though the set up.
 * Be sure to allow the Anaconda to **"prepend the Anaconda3 install location to PATH"** so that the anaconda components can be found.
 
 ## From the command line
 
-* The steps are the same for MacOSX and Linux. 
+* The steps are the same for MacOSX and Linux.
 * Download the command line installer by **clicking** on the link, using **curl**, or using **wget** to download the file for you.
 
-		$ curl -O "http://repo.continuum.io/archive/Anaconda3-4.4.0-MacOSX-x86_64.sh"
+		$ curl -O "https://repo.anaconda.com/archive/Anaconda3-5.1.0-MacOSX-x86_64.pkg"
 
 **Execute the installer**
 
@@ -29,11 +29,11 @@ We are using the Anaconda distribution of python in order to smooth the process 
 * write "bash" even within the bash shell
 you should be able to locate the downloaded file in your local folder or in the downloads folder
 
-		Anaconda3-4.4.0-MacOSX-x86_64.sh
-		
+		Anaconda3-5.1.0-MacOSX-x86_64.sh
+
 		$ cd <directory-with-installer>
-		$ bash Anaconda3-4.4.0-MacOSX-x86_64.sh
-	
+		$ bash Anaconda3-5.1.0-MacOSX-x86_64.sh
+
 
 * Be sure to allow the Anaconda to **"prepend the Anaconda3 install location to PATH"** so that the anaconda components can be found
 
@@ -42,11 +42,11 @@ you should be able to locate the downloaded file in your local folder or in the 
 
 * Type python at the command line and you should see a version of python 3 listed
 
-		$ python 
+		$ python
 		"Python 3.5.1 |Continuum Analytics..." # some version of python 3
 
 * Exit and run the juptyer notebook
-		
+
 		>>> exit ()
 		$ Jupyter notebook
 
@@ -61,23 +61,23 @@ you should be able to locate the downloaded file in your local folder or in the 
 
 ______
 
-# Install a virtual environment 
+# Install a virtual environment
 ----
 
-* If python 2 opens instead of python 3 or if the Jupyter notebook does not open, try creating a virtual environment with conda. 
+* If python 2 opens instead of python 3 or if the Jupyter notebook does not open, try creating a virtual environment with conda.
 
 * you can use virtual environments to run isolated version of python and its packages and avoid incompatibilities.
 
 **also** If you already have Anaconda and have python 2 installed you can make a new "virtual environment" and specify python 3 during setup.
 
 # Create a new virtual environment
- 
+
 * the name py3jp is arbitrary
 * The virual enviroment allows you to specify the python version python packges to be installed.
 
 		$ conda create -n py3jp python=3 jupyter matplotlib
 
-* To activate this virtual environment 
+* To activate this virtual environment
 
 		$ source activate py3jp  
 
@@ -88,11 +88,6 @@ ______
 		$ Jupyter notebook
 		ctrl-c
 
-* When you are done 
-		
+* When you are done
+
 		$ source deactivate
-
-
-
- 
-
