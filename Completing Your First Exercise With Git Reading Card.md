@@ -4,7 +4,7 @@ Before proceeding, use the following instructions to set up your local assignmen
 
 **Download [1.15 The Course Workflow.pptx](https://github.com/MIDS-INFO-W18/Course-Syllabus/blob/master/week_01/1.15%20The%20Course%20Workflow.pptx) for a diagram of this process**
 
-1. **assignments_upstream_summer18** - You should be able to find this repository in our class organization on GitHub: **https://github.com/MIDS-INFO-W18/assignments_upstream_summer18**. This is where we will post all class assignments.  You have read access to this repository, and each week you will use a pull command to download the latest assignments to your own machine then push your submissions to your student repository **(recall the "V" shape)**.
+1. **assignments_upstream_summer18** - You should be able to find this repository in our class organization on GitHub: **https://github.com/MIDS-INFO-W18/assignments_upstream_summer18_SS**. This is where we will post all class assignments.  You have read access to this repository, and each week you will use a pull command to download the latest assignments to your own machine then push your submissions to your student repository **(recall the "V" shape)**.
 2. **Your student repository** - In this excercise you will make your own student remote repository. You should have write access to your student repisitory, but it will be only readable by you and your instructors.  When you complete your homework each week, you will use a push command to upload your work to this repository.
 
 ## Initial Setup
@@ -62,14 +62,14 @@ Open a command prompt and use it to navigate to your desktop or course working d
 ``` sh
 # clone the assignment repository onto your computer
 
-git clone https://github.com/MIDS-INFO-W18/assignments_upstream_summer18.git
+git clone https://github.com/MIDS-INFO-W18/assignments_upstream_summer18_SS.git
 
 # Note: This may be an empty repository at the beginning of the course.
 
-cd assignments_upstream_summer18
-# (or cd assignment-upstream-w18 for the 10 week course)
+cd assignments_upstream_summer18_SS
 
-git remote add upstream https://github.com/MIDS-INFO-W18/assignments_upstream_summer18.git
+
+git remote add upstream https://github.com/MIDS-INFO-W18/assignments_upstream_summer18_SS.git
 ```
 
 You can find the URL for YourNameREPO by navigating to the appropriate repository in your web browser, then clicking on the "Clone or download" button in the upper right corner.
@@ -91,7 +91,7 @@ To check if you did everything right, execute the following command:
 git remote -v
 ```
 
-* The output should show "fetch" and "push" for two remotes, one named origin and one named upstream.
+* The output should show "fetch" and "push" for two remotes, one named origin and one named upstream (rempo name may vary slightly from the image).
 
 
 ![New repo menu item](images/CreateRepo_7.png)
@@ -102,17 +102,17 @@ git remote -v
 
 ## Workflow for Each Week
 
-Each week, you will begin by navigating to your local version of **assignments_upstream_summer18**, and downloading the latest changes from the remote assignments_upstream_summer18 repository. You do this with a git pull:
+Each week, you will begin by navigating to your local version of **assignments\_upstream\_summer18_SS**, and downloading the latest changes from the remote assignments_upstream_summer18 repository. You do this with a git pull:
 
 ``` sh
 git pull upstream master
 ```
 
-Next, you will have a **assignments_upstream_summer18/SUBMISSIONS** folder that you will make in the next exercise.
+Next, you will have a **assignments\_upstream\_summer18_SS/SUBMISSIONS** folder that you will make in the next exercise.
 
 * Make a copy of your assignment and move it to the SUBMISSIONS folder.
 
-* Complete all the exercises in the **assignments_upstream_summer18/SUBMISSIONS** folder on your local machine and commit your changes to git.  
+* Complete all the exercises in the **assignments\_upstream\_summer18_SS/SUBMISSIONS** folder on your local machine and commit your changes to git.  
 
 * Finally, you'll push your changes up to your personal student repository on github.  You can do this with the following command:
 
@@ -123,14 +123,14 @@ git push origin master
 
 ## Completing the Exercise
 
-For this exercise you will post your first work to the assignments_upstream_summer18 repository. The Github repository **installation** contains the exercise.
+For this exercise you will post your first work to your personal version of the assignments\_upstream\_summer18_SS repository. The Github repository **installation** contains the exercise.
 
 
 * Make a new folder called **"SUBMISSIONS"** in your local assignments_upstream_summer18 folder
 
   **IMPORTANT:** the SUBMISSIONS folder is the place that you can safely put modified files. Don't add or change files outside of the submissions folder because that can cause UGLY merge conflicts.
 
-	* Try using the **mkdir** command from within your local assignments_upstream_summer18
+	* Try using the **mkdir** command from within your local assignments\_upstream\_summer18_SS
 
 
 
@@ -145,7 +145,7 @@ git clone https://github.com/MIDS-INFO-W18/Installation.git
 * Copy the file "First\_GitHub\_Exercise.txt"
 
 	* From your local Installation repository.
-To your local **assignments_upstream_summer18/SUBMISSIONS** folder.
+To your local **assignments\_upstream\_summer18_SS/SUBMISSIONS** folder.
 
 	* To copy the file you can practice using the command line **cp** command or just drag and drop the file.
 
@@ -183,7 +183,7 @@ Check the GitHub repository in your browser to confirm that your changes are the
 
 ## merging
 
-* Note: from time to time you may have to merge the upstream and your local drive when you **pull** in a version of the repository that are not the same. you may see a screen like this, We are using an old (2016) repository in this example
+* Note: from time to time you may have to merge the upstream and your local drive when you **pull** in a version of the repository that are not the same. you may see a screen like this, (Note: We are using an old (2016) repository in this example)
 
 ![New repo menu item](images/CreateRepo_8.png)
 
