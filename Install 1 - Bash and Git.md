@@ -3,9 +3,10 @@
 
 In this class you will use **bash** (also known as terminal or shell) to submit certain commands using text via the "command line". You will also use **Git** to manage code versions and **GitHub** to share and access code online. This card details installation instructions.
 
-Before starting the process below, if you do not have a GitHub account you should sign up for one. Go to the [GitHub Homepage](https://github.com) and select "Sign Up". If you sign up with academic credentials, you can gain access to paid features by requesting a [free student account](https://education.github.com/) (not required for this course).
+Before starting the process below, if you do not have a GitHub account you should sign up for one. Go to the [GitHub Homepage](https://github.com) and select "Sign Up". If you sign up with academic credentials, you can gain access to paid features by requesting a [free student account](https://education.github.com/) (**not required for this course and this can take a while to get approval**).
 
-* Windows users should install "Git Bash" along with Git and GitHub via the installer below. If you do not use this method, you will run into technical problems.
+* Windows users have a variety of command line type tools available. We recemment that you to use one of the bash flavor tools. To do this you can install "Git Bash" along with Git and GitHub via the installer below. 
+
 * Linux and Mac OS users already have "bash" (called "terminal" on a Mac) installed by default. Mac users can access Terminal via their Spotlight search, and pin it to the dock for easy access.
 
 
@@ -17,7 +18,7 @@ The steps on a Windows machine are slightly more complicated because you will al
 2. Run the installer, and make sure to pick the option to install Git Bash in addition to the default options.  All other items can be left to their default setting.
 3. On your computer, open the Git Bash application.
 4. Follow instructions 3 and 4 from the "Mac/Linux users" installation instructions below.
-
+5. if git bash does not install try [this] (http://www.techoism.com/how-to-install-git-bash-on-windows/)
 
 ## Mac/Linux users: Installing Git and Linking to GitHub
 

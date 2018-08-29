@@ -2,9 +2,9 @@
 
 Before proceeding, use the following instructions to set up your local assignment repository.  This will be the place you work on your class assignments and it will be linked to two remote repositories on GitHub making a V shaped unidirectional workflow:
 
-**Download [1.15 The Course Workflow.pptx](https://github.com/MIDS-INFO-W18/Course-Syllabus/blob/master/week_01/1.15%20The%20Course%20Workflow.pptx) for a diagram of this process**
+**Download [1.15 The Course Workflow.pptx](https://github.com/UCB-INFO-PYTHON/Course-Syllabus/blob/master/week_01/1.15%20The%20Course%20Workflow.pptx) for a diagram of this process**
 
-1. **assignments_upstream_summer18** - You should be able to find this repository in our class organization on GitHub: **https://github.com/MIDS-INFO-W18/assignments_upstream_summer18_SS**. This is where we will post all class assignments.  You have read access to this repository, and each week you will use a pull command to download the latest assignments to your own machine then push your submissions to your student repository **(recall the "V" shape)**.
+1. **assignments upstream Fall18** - You should be able to find this repository in our class organization on GitHub: **https://github.com/UCB-INFO-PYTHON/assignments\_upstream_fall18**. This is where we will post all class assignments.  You have read access to this repository, and each week you will use a pull command to download the latest assignments to your own machine then push your submissions to your student repository **(recall the "V" shaped worflow)**.
 2. **Your student repository** - In this excercise you will make your own student remote repository. You should have write access to your student repisitory, but it will be only readable by you and your instructors.  When you complete your homework each week, you will use a push command to upload your work to this repository.
 
 ## Initial Setup
@@ -16,14 +16,13 @@ First create an empty repository in Github for your homework, you can do this th
 
 ## Create a new repository
 
-* this is done through the add menu on the upper right
+* this is done through add menu "+" on the top or the green NEW button on the upper right
 
 ![New repo menu item](images/CreateRepo_1.png)
 
-
 --
 * Put your repository in the MIDS-INFO-W18 organization
-* Name it your FirstnameLastnameREPO so mine should be **"GunnarKleemannREPO"**
+* Name it your FirstnameLastnameREPO so mine should be **"Gunnar\_KleemannREPO"**
 
 ![New repo menu item](images/CreateRepo_2.png)
 
@@ -34,13 +33,14 @@ First create an empty repository in Github for your homework, you can do this th
 # Important: Do not add a readme file you need an empty repository
 
 ![New repo menu item](images/CreateRepo_3.png)
+--
+When you look at your repository it should look **LIKE THIS; this is an empty repo** 
 
+![New repo menu item](images/CreateRepo_4.png)
 
 # Give the instructors read access
 
 * In your new **private** repository, go to the settings tab, on the right and then select collaborators and teams on the left
-
-![New repo menu item](images/CreateRepo_4.png)
 
 * Give (only) instructors read access:
 
@@ -53,7 +53,7 @@ First create an empty repository in Github for your homework, you can do this th
 ## Clone the assignments directory on your system
 
 
-You need to tell git that you will be pulling content (homeworks) onto your machine from assignments-upstream-spring18 and pushing modified content (completed homeworks) to YourNameREPO on github
+You need to tell git that you will be pulling content (homeworks) onto your machine from assignments_upstream_fall18 repository and pushing modified content (completed homeworks) to YourNameREPO repository on github
 
 Open a command prompt and use it to navigate to your desktop or course working directory.  Then execute the following commands:
 
@@ -62,25 +62,27 @@ Open a command prompt and use it to navigate to your desktop or course working d
 ``` sh
 # clone the assignment repository onto your computer
 
-git clone https://github.com/MIDS-INFO-W18/assignments_upstream_summer18_SS.git
+git clone https://github.com/UCB-INFO-PYTHON/
+assignments_upstream_fall18.git
 
 # Note: This may be an empty repository at the beginning of the course.
 
-cd assignments_upstream_summer18_SS
+cd assignments_upstream_fall18
 
+# Add the assigments repo as the upstream (Think of **upstream as the "source"/where stuff comes from**)
 
-git remote add upstream https://github.com/MIDS-INFO-W18/assignments_upstream_summer18_SS.git
+git remote add upstream https://github.com/UCB-INFO-PYTHON/assignments_upstream_fall18.git
 ```
 
 You can find the URL for YourNameREPO by navigating to the appropriate repository in your web browser, then clicking on the "Clone or download" button in the upper right corner.
 
 ``` sh
-# set the origin to your personal repository
+# set the origin (think of **origin this as the "sink"/where stuff goes**) to your personal repository
 
 git remote remove origin
 git remote add origin <ENTER YOUR REPOSITORY HTTPS URL HERE>
 
-# i.e. git remote add origin https://github.com/MIDS-INFO-W18/GunnarKleeRepo.git
+# i.e. git remote add origin https://github.com/UCB-INFO-PYTHON/Gunnar_KleemannREPO.git
 
 
 ```
@@ -102,17 +104,18 @@ git remote -v
 
 ## Workflow for Each Week
 
-Each week, you will begin by navigating to your local version of **assignments\_upstream\_summer18_SS**, and downloading the latest changes from the remote assignments_upstream_summer18 repository. You do this with a git pull:
+Each week, you will begin by navigating to your local version of **assignments\_upstream\_fall18**, and downloading the latest changes from the remote **assignments\_upstream_fall18 repository. You do this with a git pull:
 
 ``` sh
 git pull upstream master
 ```
 
-Next, you will have a **assignments\_upstream\_summer18_SS/SUBMISSIONS** folder that you will make in the next exercise.
+
+**IMPORTANT** keep the original material intact, don't modify it in place or there can be nasty merge conflicts. You will make a separate folder **assignments\_upstream\_fall18/SUBMISSIONS** folder to keep your work separate from the originals.
 
 * Make a copy of your assignment and move it to the SUBMISSIONS folder.
 
-* Complete all the exercises in the **assignments\_upstream\_summer18_SS/SUBMISSIONS** folder on your local machine and commit your changes to git.  
+* Complete all the exercises in the **assignments\_upstream\_fall18/SUBMISSIONS** folder on your local machine and commit your changes to git.  
 
 * Finally, you'll push your changes up to your personal student repository on github.  You can do this with the following command:
 
@@ -123,14 +126,14 @@ git push origin master
 
 ## Completing the Exercise
 
-For this exercise you will post your first work to your personal version of the assignments\_upstream\_summer18_SS repository. The Github repository **installation** contains the exercise.
+For this exercise you will post your first work to your personal version of the assignments\_upstream\_fall18 repository. The Github repository **installation** contains the exercise.
 
 
 * Make a new folder called **"SUBMISSIONS"** in your local assignments_upstream_summer18 folder
 
   **IMPORTANT:** the SUBMISSIONS folder is the place that you can safely put modified files. Don't add or change files outside of the submissions folder because that can cause UGLY merge conflicts.
 
-	* Try using the **mkdir** command from within your local assignments\_upstream\_summer18_SS
+	* Try using the **mkdir** command from within your local assignments\_upstream\_fall18
 
 
 
@@ -139,13 +142,13 @@ For this exercise you will post your first work to your personal version of the 
 ```sh
 cd ..
 
-git clone https://github.com/MIDS-INFO-W18/Installation.git
+git clone https://github.com/UCB-INFO-PYTHON//Installation.git
 ```
 
 * Copy the file "First\_GitHub\_Exercise.txt"
 
 	* From your local Installation repository.
-To your local **assignments\_upstream\_summer18_SS/SUBMISSIONS** folder.
+To your local **assignments\_upstream\_fall18/SUBMISSIONS** folder.
 
 	* To copy the file you can practice using the command line **cp** command or just drag and drop the file.
 
