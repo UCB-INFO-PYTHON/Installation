@@ -142,7 +142,7 @@ For this exercise you will post your first work to your personal version of the 
 ```sh
 cd ..
 
-git clone https://github.com/UCB-INFO-PYTHON//Installation.git
+git clone https://github.com/UCB-INFO-PYTHON/Installation.git
 ```
 
 * Copy the file "First\_GitHub\_Exercise.txt"
