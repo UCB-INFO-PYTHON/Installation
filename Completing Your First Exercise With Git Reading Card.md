@@ -4,7 +4,7 @@ Before proceeding, use the following instructions to set up your local assignmen
 
 **Download [1.15 The Course Workflow.pptx](https://github.com/UCB-INFO-PYTHON/Course-Syllabus/blob/master/week_01/1.15%20The%20Course%20Workflow.pptx) for a diagram of this process**
 
-1. **assignments upstream Fall18** - You should be able to find this repository in our class organization on GitHub: **https://github.com/UCB-INFO-PYTHON/assignments\_upstream_fall18**. This is where we will post all class assignments.  You have read access to this repository, and each week you will use a pull command to download the latest assignments to your own machine then push your submissions to your student repository **(recall the "V" shaped worflow)**.
+1. **assignments upstream Fall18** - You should be able to find this repository in our class organization on GitHub: **https://github.com/UCB-INFO-PYTHON/assignments_upstream_fall18**. This is where we will post all class assignments.  You have read access to this repository, and each week you will use a pull command to download the latest assignments to your own machine then push your submissions to your student repository **(recall the "V" shaped worflow)**.
 2. **Your student repository** - In this excercise you will make your own student remote repository. You should have write access to your student repisitory, but it will be only readable by you and your instructors.  When you complete your homework each week, you will use a push command to upload your work to this repository.
 
 ## Initial Setup
@@ -62,8 +62,7 @@ Open a command prompt and use it to navigate to your desktop or course working d
 ``` sh
 # clone the assignment repository onto your computer
 
-git clone https://github.com/UCB-INFO-PYTHON/
-assignments_upstream_fall18.git
+git clone https://github.com/UCB-INFO-PYTHON/assignments_upstream_fall18.git
 
 # Note: This may be an empty repository at the beginning of the course.
 
