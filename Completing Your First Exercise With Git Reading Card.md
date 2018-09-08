@@ -21,7 +21,7 @@ First create an empty repository in Github for your homework, you can do this th
 ![New repo menu item](images/CreateRepo_1.png)
 
 --
-* Put your repository in the MIDS-INFO-W18 organization
+* Put your repository in the UCB-INFO-PYTHON organization
 * Name it your FirstnameLastnameREPO so mine should be **"Gunnar\_KleemannREPO"**
 
 ![New repo menu item](images/CreateRepo_2.png)
