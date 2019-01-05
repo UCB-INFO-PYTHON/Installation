@@ -92,7 +92,7 @@ To check if you did everything right, execute the following command:
 git remote -v
 ```
 
-* The output should show "fetch" and "push" for two remotes, one named origin and one named upstream (rempo name may vary slightly from the image).
+* The output should show "fetch" and "push" for two remotes, one named origin and one named upstream (repo name may vary slightly from the image).
 
 
 ![New repo menu item](images/CreateRepo_7.png)
@@ -188,15 +188,13 @@ Check the GitHub repository in your browser to confirm that your changes are the
 
 ![New repo menu item](images/CreateRepo_8.png)
 
-**This is VIM**, a command line text editor. you need to enter a short message overwriting one of the blue tilde and then write the message to file
-
-to do this:
+**This is VIM**, a command line text editor. you need to enter a short message overwriting one of the blue tilde and then write the message to file to do this:
 
 1) Type **i** to enter the "insert" mode (look to the bottom of the screen for the word "INSERT"
 
 2) Use arrow keys to navigate to the line above the blue tilde and type in a message (any explanation about one line long)
 
-3) Exit the insert mode by pushing **esc** ("INSERT" will disapear) then
+3) Exit the insert mode by pushing **esc** ("INSERT" will disappear) then
 
 4) type **:wq** this means *"write then quit"*
 you should see some sort of message indicating that the merge was successful as shown below.
